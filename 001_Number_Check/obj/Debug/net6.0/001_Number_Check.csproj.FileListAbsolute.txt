@@ -1,0 +1,15 @@
+D:\Программирование\Self-training\001_Number_Check\bin\Debug\net6.0\001_Number_Check.exe
+D:\Программирование\Self-training\001_Number_Check\bin\Debug\net6.0\001_Number_Check.deps.json
+D:\Программирование\Self-training\001_Number_Check\bin\Debug\net6.0\001_Number_Check.runtimeconfig.json
+D:\Программирование\Self-training\001_Number_Check\bin\Debug\net6.0\001_Number_Check.dll
+D:\Программирование\Self-training\001_Number_Check\bin\Debug\net6.0\001_Number_Check.pdb
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.csproj.AssemblyReference.cache
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.GeneratedMSBuildEditorConfig.editorconfig
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.AssemblyInfoInputs.cache
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.AssemblyInfo.cs
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.csproj.CoreCompileInputs.cache
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.dll
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\refint\001_Number_Check.dll
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.pdb
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\001_Number_Check.genruntimeconfig.cache
+D:\Программирование\Self-training\001_Number_Check\obj\Debug\net6.0\ref\001_Number_Check.dll
