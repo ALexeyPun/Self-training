@@ -19,7 +19,10 @@ string Bilder(int element)
     return str;
 }
 
-// СТАРТ ПРОГРАММЫ
+// СТАРТ ПРОГРАММЫ ==================================================================>
+// РЕШИЛ СДЕЛАТЬ НА ВХОД ОДНО БОЛЬШОЕ ЧИСЛО! ПЕРЕДЕЛАТЬ ПОД МАССИВ МОЖНО!
+// РАБОТАТЬ ТОЖЕ БУДЕТ...  теоретически =)
+
 System.Console.Write("Enter number: ");
 string entrNumber = Console.ReadLine();
 
@@ -30,25 +33,20 @@ byte count = 0;
 byte space = 0;
 byte pointer = 0;
 string stringBilder = "";
-//string outString = "";
+
 
 //вызов функции сортировки числа в массив
 array = Distributor(array, userNumber, amountElements);
 
-amountElements++;
+//первые 2 условия в FOR актуальны для последней итерации
 for (int i = 0; i < amountElements; i++)
 {
-    //два сравнения для последней итерации, так как последний элемент не с чем сравнить
     //pointer - выясняет какая последняя итерация(возрастающая или убывающая)
-    if (i == (amountElements - 1) && pointer == 0)
-    {
-        stringBilder = stringBilder + (Bilder(array[i]) + "; ");
-        break;
-    }
+    if (i == (amountElements - 1) && pointer == 0) break;        
 
     if (i == (amountElements - 1) && pointer == 1)
     {
-        stringBilder = stringBilder + (Bilder(array[i]) + "; ");
+        stringBilder = stringBilder + (Bilder(array[i]) + Bilder(array[i + 1]) + "; ");
         count++;
         break;
     }
