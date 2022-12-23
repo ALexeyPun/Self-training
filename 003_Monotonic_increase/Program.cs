@@ -59,13 +59,14 @@ for (int i = 0; i < amountElements; i++)
     }
     else
     {
-        if (pointer == 0) space++;//если будет повторный заход - пропуск + 1
-        else
+        if (pointer == 1)
         {
-            pointer = 0;
+            pointer = 0; //чтобы не заходить 2-ой раз
             stringBilder = stringBilder + (Bilder(array[i]) + "; ");
             count++;
         }
+        else space++; // мусорная итерация - ни на что не влияет, но можно написать что-то полезное
+        
     }
 }
 
